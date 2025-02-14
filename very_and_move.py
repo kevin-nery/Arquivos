@@ -33,9 +33,9 @@ def mover_arquivos(pasta_origem, pasta_destino, codigos):
             except Exception as e:
                 print(f"Erro ao mover o arquivo '{arquivo}': {e}")
 
-pasta_origem = r'C:\Users\kevin.nery\Documents\Arquivos\Processados'
-pasta_destino = r'C:\Users\kevin.nery\Documents\Arquivos\XML'
-arquivo_csv = r'C:\Users\kevin.nery\Documents\Arquivos\xmls_teia.csv'
+pasta_origem = r'C:\Users\kevin.nery\Documents\Arquivos\Processados' # Insira aqui o caminho da pasta das chaves, como no exemplo
+pasta_destino = r'C:\Users\kevin.nery\Documents\Arquivos\XML' # Insira aaui o caminho da pasta de destino das chaves, commo no exemplo
+arquivo_csv = r'C:\Users\kevin.nery\Documents\Arquivos\xmls.csv' # Insira aqui o caminho do arquivo .csv, como no exemplo
 
 codigos = ler_planilha(arquivo_csv)
 
